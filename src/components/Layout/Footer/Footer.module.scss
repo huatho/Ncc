@@ -1,0 +1,17 @@
+.wrapper {
+    height: 79px;
+    border-top: 1px #dedede solid;
+    color: #3e3e3e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding-left: 20px;
+    }
+}
